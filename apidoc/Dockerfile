@@ -1,6 +1,6 @@
-FROM node
+FROM node:11-alpine
 
-MAINTAINER mian <gopher.mian@outlook.com>
+LABEL maintainer="gopher.mian@outlook.com"
 
 RUN npm install apidoc -g
 
